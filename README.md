@@ -10,7 +10,8 @@ como rodar:
 
 no VS Code, acesse o terminal integrado navegue até a pasta do projeto usando o comando cd seguido do caminho específico do diretório. O comando utilizado foi cd meu-projeto. Dentro da pasta correta, execute o comando npm run dev para iniciar o servidor de desenvolvimento do Next.js. Este comando aciona o script "dev" definido no arquivo package.json, que por sua vez executa o comando next dev.
 
-<img width="837" height="347" alt="image" src="https://github.com/user-attachments/assets/afbb83fd-2ec1-4a97-b5dc-54eb30cd8cb2" />
+<img width="626" height="210" alt="image" src="https://github.com/user-attachments/assets/d4a6a842-add3-42a2-8bef-b2c9f60a7de3" />
+
 
 <img width="2430" height="935" alt="image" src="https://github.com/user-attachments/assets/ab5dcb93-3edb-4136-afa8-22d858e1541d" />
 
@@ -24,7 +25,8 @@ Exemplos:
 
 Componentes: 
 
-<img width="242" height="117" alt="image" src="https://github.com/user-attachments/assets/c4ad8baa-21a6-411b-bc13-2aecb7495c45" />
+<img width="271" height="117" alt="image" src="https://github.com/user-attachments/assets/4c8aab21-94ae-427a-9829-a26b4513397d" />
+
 
 
 SPA: ### HTML Tradicional:
