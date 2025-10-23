@@ -12,6 +12,9 @@ no VS Code, acesse o terminal integrado navegue até a pasta do projeto usando o
 
 <img width="837" height="347" alt="image" src="https://github.com/user-attachments/assets/afbb83fd-2ec1-4a97-b5dc-54eb30cd8cb2" />
 
+<img width="2430" height="935" alt="image" src="https://github.com/user-attachments/assets/ab5dcb93-3edb-4136-afa8-22d858e1541d" />
+
+
 
 Migração para o ReactJs(estrutura inicial):
 
