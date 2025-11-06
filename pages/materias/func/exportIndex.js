@@ -1,0 +1,6 @@
+export { default as ConceitosFundamentais } from './ConceitosFundamentais'
+export { default as EquacoesExponenciais } from './EquacoesExponenciais'
+export { default as Funcao1grau } from './Funcao1grau'
+export { default as Funcao2grau } from './Funcao2grau'
+export { default as FuncaoExponencial } from './FuncaoExponencial'
+export { default as Logaritmos } from './Logaritmos'

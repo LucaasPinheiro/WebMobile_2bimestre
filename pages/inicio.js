@@ -68,7 +68,7 @@ export default function Inicio() {
           <MateriaCard 
             titulo="Funções"
             descricao="Função do 1º e 2º grau, exponencial e logarítmica."
-            link="/materias/funcoesmain"
+            link="/materias/funcoes"
           />
 
           <MateriaCard 
