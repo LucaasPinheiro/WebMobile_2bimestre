@@ -78,8 +78,15 @@ export default function Inicio() {
           />
 
           <MateriaCard 
+            titulo="Jogos"
+            descricao="Jogos matemáticos"
+            link="/jogos-geometria"
+          />
+
+
+          <MateriaCard 
             titulo="Multimidia"
-            descricao="Filmes, Documentarios, Jogos"
+            descricao="Filmes, Documentarios"
             link="/multimidia"
           />
 

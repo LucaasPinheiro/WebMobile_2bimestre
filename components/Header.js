@@ -74,6 +74,12 @@ export default function Header() {
                 </Link>
               </li>
 
+              <li className="nav-item">
+                <Link className="nav-link px-3" href="/jogos-geometria">
+                  Jogos
+                </Link>
+              </li>
+
               {/* Dropdown Conteúdos */}
               <li className="nav-item dropdown">
                 <a

@@ -29,7 +29,6 @@ export default function AppScripts() {
       const darkModeToggle = document.getElementById("darkModeToggle");
       const body = document.body;
 
-      // Remove event listeners antigos para evitar duplicação
       const newToggle = darkModeToggle?.cloneNode(true);
       if (darkModeToggle && newToggle) {
         darkModeToggle.parentNode?.replaceChild(newToggle, darkModeToggle);
@@ -40,7 +39,6 @@ export default function AppScripts() {
         else body.classList.remove("dark-mode");
       }
 
-      // Verifica preferência salva
       const darkPref = localStorage.getItem("darkMode") === "enabled";
       applyDarkMode(darkPref);
 
@@ -56,22 +54,22 @@ export default function AppScripts() {
     }
 
     // ===== CARDS ANIMADOS =====
-    const initializeCardHover = () => {
-      document.querySelectorAll(".card").forEach(card => {
-        // Remove event listeners antigos
-        const newCard = card.cloneNode(true);
-        card.parentNode?.replaceChild(newCard, card);
+    //const initializeCardHover = () => {
+     // document.querySelectorAll(".card").forEach(card => {
+      //  // Remove event listeners antigos
+      //  const newCard = card.cloneNode(true);
+      //  card.parentNode?.replaceChild(newCard, card);
 
         // Adiciona novos event listeners
-        newCard.addEventListener("mouseenter", () => {
-          newCard.style.transform = "scale(1.05)";
-          newCard.style.transition = "transform 0.3s ease";
-        });
-        newCard.addEventListener("mouseleave", () => {
-          newCard.style.transform = "scale(1)";
-        });
-      });
-    }
+     //   newCard.addEventListener("mouseenter", () => {
+     //     newCard.style.transform = "scale(1.05)";
+     //     newCard.style.transition = "transform 0.3s ease";
+     //   });
+     //   newCard.addEventListener("mouseleave", () => {
+      //    newCard.style.transform = "scale(1)";
+      //  });
+    //  });
+  //  }
 
     // ===== DROPDOWNS ANIMADOS =====
     const initializeDropdowns = () => {
@@ -88,27 +86,23 @@ export default function AppScripts() {
     const initializeAll = () => {
       saudacaoDinamica();
       initializeDarkMode();
-      initializeCardHover();
+     // initializeCardHover();
       initializeDropdowns();
     }
 
-    // Executar quando o componente montar
     initializeAll();
 
-    // Executar também quando a rota mudar (navegação entre páginas)
     const handleRouteChange = () => {
-      // Pequeno delay para garantir que o DOM foi atualizado
       setTimeout(initializeAll, 50);
     };
 
     router.events.on('routeChangeComplete', handleRouteChange);
 
-    // Cleanup
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
     }
 
-  }, [router]) // Adicionei router como dependência
+  }, [router])
 
   return null;
 }
