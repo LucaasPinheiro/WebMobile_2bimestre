@@ -107,7 +107,14 @@ export default function Jogos() {
         )}
       </div>
 
-      <AppScripts />
+      <footer className="bg-light text-center text-muted py-4 border-top mt-5">
+        <div className="container-fluid px-5">
+          <p className="mb-0 px-3" style={{ fontSize: '14px' }}>
+            Este repositório foi criado a partir da curadoria de materiais disponíveis gratuitamente na internet, sendo que os direitos autorais pertencem a cada um dos materiais encontrados. <br />
+          </p>
+        </div>
+        <AppScripts />
+      </footer>
     </Layout>
   )
 }
