@@ -15,9 +15,15 @@ no VS Code, acesse o terminal integrado navegue até a pasta do projeto usando o
 
 <img width="2430" height="935" alt="image" src="https://github.com/user-attachments/assets/ab5dcb93-3edb-4136-afa8-22d858e1541d" />
 
+### API Geogebra:
+
+<img width="1422" height="1220" alt="image" src="https://github.com/user-attachments/assets/b12c54d4-5eed-492a-b1cc-fae8fdedc867" />
 
 
-Migração para o ReactJs(estrutura inicial):
+<img width="2100" height="1317" alt="image" src="https://github.com/user-attachments/assets/42ae9dea-1b5f-4a24-a979-c7848fd14ca3" />
+
+
+Migração para o ReactJs:
 
 Com React foi possivel melhorar a dinamicidade, legibilidade e possibilidade de manutenção do código através dos componentes reutizaváveis, além do aumento da performance com o Single Page Application.
 
