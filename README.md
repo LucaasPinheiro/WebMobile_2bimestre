@@ -29,7 +29,7 @@ Componentes:
 
 
 
-SPA: ### HTML Tradicional:
+SPA: HTML Tradicional:
 ```html
 <a href="sobre.html">Sobre</a>
 ```
